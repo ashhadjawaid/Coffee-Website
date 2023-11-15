@@ -1,0 +1,48 @@
+@media (max-width:855px){
+    section{
+        padding: 20px;
+    }
+    .header{
+        padding: 15px 20px;
+    }
+    #menu-btn{
+        display: inline-block;
+    }
+    .icons i{
+        margin-left: 15px;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        height: calc(100vh - 95px);
+        width: 300px;
+        background-color: #fff;
+        padding-top: 20px;
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar a{
+        color: var(--black);
+        display: block;
+        font-size: 22px;
+        margin: 15px;
+        padding: 5px;
+    }
+    .header .search-form{
+        width: 90%;
+        right: 20px;
+    }
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content h3{
+        font-size: 45px;
+    }
+    .home .content p{
+        font-size: 15px;
+    }
+}
